@@ -1,0 +1,272 @@
+{
+  "tiles": [
+    {
+      "id": 0,
+      "clk": 100000000,
+      "tdm": {
+        "period": 1000000,
+        "table": [
+          {
+            "id": 1,
+            "duration": 400000
+          },
+          {
+            "id": 2,
+            "duration": 36808
+          },
+          {
+            "id": 3,
+            "duration": 36808
+          },
+          {
+            "id": 0,
+            "duration": 10000
+          }
+        ]
+      },
+      "idMem": {
+        "size": 128,
+        "maxBlocks": 32,
+        "used": 128,
+        "allocBlocks": [
+          {
+            "base": 0,
+            "size": 32,
+            "id": 0,
+            "lock": true
+          },
+          {
+            "base": 32768,
+            "size": 32,
+            "id": 1,
+            "lock": false,
+	    "data": "app_tile_0_1/out.hex"
+          },
+          {
+            "base": 65536,
+            "size": 32,
+            "id": 2,
+            "lock": false,
+	    "data": "app_tile_0_2/out.hex"
+
+          },
+          {
+            "base": 98304,
+            "size": 32,
+            "id": 3,
+            "lock": false,
+	    "data": "app_tile_0_3/out.hex"
+
+          }
+        ]
+      },
+      "axiMMU": {
+        "tableSize": 4,
+        "table" : [
+		[
+		{
+			"base": 16515072,
+			"anew": 16515072,
+			"mask": 4294967288
+		},
+		{
+			"base": 786432,
+			"anew": 790528,
+			"mask": 4294963200
+		},
+		{
+			"base": 131072,
+			"anew": 131072,
+			"mask": 4294901760
+		},
+		{
+			"base": 196608,
+			"anew": 196608,
+			"mask": 4294901760
+		}
+		]
+	,
+	[
+
+		{
+			"base": 16515072,
+			"anew": 16515072,
+			"mask": 4294967288
+		},
+		{
+			"base": 786432,
+			"anew": 794624,
+			"mask": 4294963200
+		},
+		{
+			"base": 131072,
+			"anew": 131072,
+			"mask": 4294901760
+		},
+		{
+			"base": 196608,
+			"anew": 196608,
+			"mask": 4294901760
+		}
+	]
+	,
+	[
+		{
+			"base": 16515072,
+			"anew": 16515072,
+			"mask": 4294967288
+		},
+		{
+			"base": 786432,
+			"anew": 798720,
+			"mask": 4294963200
+		},
+		{
+			"base": 131072,
+			"anew": 131072,
+			"mask": 4294901760
+		},
+		{
+			"base": 196608,
+			"anew": 196608,
+			"mask": 4294901760
+		}
+	]
+	]
+      }
+    },
+    {
+      "id": 1,
+      "clk": 100000000,
+      "tdm": {
+        "period": 1000000,
+        "table": [
+          {
+            "id": 0,
+            "duration": 1000
+          },
+          {
+            "id": null,
+            "duration": 4096
+          },
+          {
+            "id": 0,
+            "duration": 1000
+          },
+          {
+            "id": null,
+            "duration": 4096
+          },
+          {
+            "id": 0,
+            "duration": 3000
+          },
+          {
+            "id": null,
+            "duration": 4096
+          },
+          {
+            "id": 0,
+            "duration": 978616
+          },
+          {
+            "id": null,
+            "duration": 4096
+          }
+        ],
+        "OS": {
+          "id": null,
+          "duration": 4096
+        }
+      },
+      "idMem": {
+        "size": 128,
+        "maxBlocks": 32,
+        "used": 32,
+        "allocBlocks": [
+          {
+            "base": 0,
+            "size": 32,
+            "id": 0,
+            "lock": true
+          }
+        ]
+      },
+      "axiMMU": {
+        "tableSize": 4
+      }
+    },
+    {
+      "id": 2,
+      "clk": 100000000,
+      "tdm": {
+        "period": 1000000,
+        "table": [
+          {
+            "id": 0,
+            "duration": 4000
+          },
+          {
+            "id": 1,
+            "duration": 480000
+          },
+          {
+            "id": 1,
+            "duration": 480000
+          },
+          {
+            "id": 1,
+            "duration": 480000
+          }
+        ]
+      },
+      "idMem": {
+        "size": 128,
+        "maxBlocks": 32,
+        "used": 64,
+        "allocBlocks": [
+          {
+            "base": 0,
+            "size": 32,
+            "id": 0,
+            "lock": true
+          },
+          {
+            "base": 32768,
+            "size": 32,
+            "id": 1,
+            "lock": false,
+	    "data": "app_tile_2_1/out.hex"
+          }
+        ]
+      },
+      "axiMMU": {
+        "tableSize": 4,
+        "table" : [
+		[
+		{
+			"base": 16515072,
+			"anew": 16515072,
+			"mask": 4294967288
+		},
+		{
+			"base": 786432,
+			"anew": 790528,
+			"mask": 4294963200
+		},
+		{
+			"base": 131072,
+			"anew": 131072,
+			"mask": 4294901760
+		},
+		{
+			"base": 196608,
+			"anew": 196608,
+			"mask": 4294901760
+		}
+		]
+	]
+      }
+    }
+  ]
+}

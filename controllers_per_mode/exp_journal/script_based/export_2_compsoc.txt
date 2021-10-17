@@ -1,0 +1,232 @@
+float K1[1][N] ={
+{-3.9978048480631577e-03f, -3.7797639538349579e-03f, -1.0115629311403178e-03f, -8.9000935161657774e-04f, -3.9917078041849319e-03f } 
+};
+float F1[1][1] ={
+{7.7775688018969754e-03f } 
+};
+
+float K2[1][N] ={
+{-3.9984909014844699e-03f, -3.7804309684148392e-03f, -1.0116454348178005e-03f, -8.9008204674051992e-04f, -3.9920326677781439e-03f } 
+};
+float F2[1][1] ={
+{7.7789218698968796e-03f } 
+};
+
+float K3[1][N] ={
+{-3.9991754314717201e-03f, -3.7811011864638932e-03f, -1.0117275593543240e-03f, -8.9015436568128591e-04f, -3.9923560344807141e-03f } 
+};
+float F3[1][1] ={
+{7.7802766179335611e-03f } 
+};
+
+float K4[1][N] ={
+{-3.9998600885504526e-03f, -3.7817729402837672e-03f, -1.0118092980467960e-03f, -8.9022630192741887e-04f, -3.9926778745602437e-03f } 
+};
+float F4[1][1] ={
+{7.7816330288325497e-03f } 
+};
+
+float K5[1][N] ={
+{-4.0005463096908205e-03f, -3.7824447058561659e-03f, -1.0118906409280807e-03f, -8.9029784683639351e-04f, -3.9929981458095027e-03f } 
+};
+float F5[1][1] ={
+{7.7829910155432181e-03f } 
+};
+
+float K6[1][N] ={
+{-4.0012355385853236e-03f, -3.7831148847172836e-03f, -1.0119715753286393e-03f, -8.9036898971366746e-04f, -3.9933167953297407e-03f } 
+};
+float F6[1][1] ={
+{7.7843504233006270e-03f } 
+};
+
+float K7[1][N] ={
+{-4.0019294183532379e-03f, -3.7837816196798755e-03f, -1.0120520859711454e-03f, -8.9043971879778055e-04f, -3.9936337595460007e-03f } 
+};
+float F7[1][1] ={
+{7.7857110380324772e-03f } 
+};
+
+float K8[1][N] ={
+{-4.0026298162661542e-03f, -3.7844427840968593e-03f, -1.0121321547466205e-03f, -8.9051002289411776e-04f, -3.9939489633082446e-03f } 
+};
+float F8[1][1] ={
+{7.7870726003628644e-03f } 
+};
+
+float K9[1][N] ={
+{-4.0033386067557823e-03f, -3.7850962171845901e-03f, -1.0122117605616333e-03f, -8.9057989313267878e-04f, -3.9942623197458645e-03f } 
+};
+float F9[1][1] ={
+{7.7884348239388099e-03f } 
+};
+
+float K10[1][N] ={
+{-4.0040572402951138e-03f, -3.7857401761953852e-03f, -1.0122908797220353e-03f, -8.9064932423684362e-04f, -3.9945737326429476e-03f } 
+};
+float F10[1][1] ={
+{7.7897974164876840e-03f } 
+};
+
+float K11[1][N] ={
+{-4.0047862242725309e-03f, -3.7863738774406280e-03f, -1.0123694871881726e-03f, -8.9071831482097320e-04f, -3.9948831023980426e-03f } 
+};
+float F11[1][1] ={
+{7.7911601017090640e-03f } 
+};
+
+float K12[1][N] ={
+{-4.0055246997245265e-03f, -3.7869979403165762e-03f, -1.0124475587361256e-03f, -8.9078686654621170e-04f, -3.9951903353427597e-03f } 
+};
+float F12[1][1] ={
+{7.7925226400408403e-03f } 
+};
+
+float K13[1][N] ={
+{-4.0062702903411159e-03f, -3.7876145560002514e-03f, -1.0125250736932349e-03f, -8.9085498235022466e-04f, -3.9954953547731726e-03f } 
+};
+float F13[1][1] ={
+{7.7938848463398108e-03f } 
+};
+
+float K14[1][N] ={
+{-4.0070193261758872e-03f, -3.7882272766935144e-03f, -1.0126020176193693e-03f, -8.9092266429112910e-04f, -3.9957981110297636e-03f } 
+};
+float F14[1][1] ={
+{7.7952466028694805e-03f } 
+};
+
+float K15[1][N] ={
+{-4.0077674271308808e-03f, -3.7888404390394449e-03f, -1.0126783841960005e-03f, -8.9098991168991509e-04f, -3.9960985877624811e-03f } 
+};
+float F15[1][1] ={
+{7.7966078661691916e-03f } 
+};
+
+float K16[1][N] ={
+{-4.0085103106031446e-03f, -3.7894583565355215e-03f, -1.0127541757192395e-03f, -8.9105672016234533e-04f, -3.9963968022789891e-03f } 
+};
+float F16[1][1] ={
+{7.7979686671376591e-03f } 
+};
+
+float K17[1][N] ={
+{-4.0092446066532722e-03f, -3.7900844974076749e-03f, -1.0128294019414214e-03f, -8.9112308182815402e-04f, -3.9966927993982937e-03f } 
+};
+float F17[1][1] ={
+{7.7993291040592992e-03f } 
+};
+
+float K18[1][N] ={
+{-4.0099684530351173e-03f, -3.7907208760897854e-03f, -1.0129040774612224e-03f, -8.9118898657660601e-04f, -3.9969866400387461e-03f } 
+};
+float F18[1][1] ={
+{7.8006893291235760e-03f } 
+};
+
+float K19[1][N] ={
+{-4.0106817077029998e-03f, -3.7913678218175419e-03f, -1.0129782182745411e-03f, -8.9125442389831528e-04f, -3.9972783872582835e-03f } 
+};
+float F19[1][1] ={
+{7.8020495295201006e-03f } 
+};
+
+float K20[1][N] ={
+{-4.0113857371673273e-03f, -3.7920241676477574e-03f, -1.0130518383272824e-03f, -8.9131938459795462e-04f, -3.9975680931269245e-03f } 
+};
+float F20[1][1] ={
+{7.8034099048140100e-03f } 
+};
+
+float K21[1][N] ={
+{-4.0120828741360189e-03f, -3.7926877685536347e-03f, -1.0131249468766108e-03f, -8.9138386175528544e-04f, -3.9978557894130590e-03f } 
+};
+float F21[1][1] ={
+{7.8047706426879497e-03f } 
+};
+
+float K22[1][N] ={
+{-4.0127757400389577e-03f, -3.7933561552913738e-03f, -1.0131975471796835e-03f, -8.9144785058806631e-04f, -3.9981414837390932e-03f } 
+};
+float F22[1][1] ={
+{7.8061318953299213e-03f } 
+};
+
+float K23[1][N] ={
+{-4.0134666609812292e-03f, -3.7940270977588320e-03f, -1.0132696365875370e-03f, -8.9151134728924727e-04f, -3.9984251610680243e-03f } 
+};
+float F23[1][1] ={
+{7.8074937587363129e-03f } 
+};
+
+float K24[1][N] ={
+{-4.0141573574110617e-03f, -3.7946988995699042e-03f, -1.0133412076808641e-03f, -8.9157434731049711e-04f, -3.9987067887480455e-03f } 
+};
+float F24[1][1] ={
+{7.8088562569801076e-03f } 
+};
+
+float K25[1][N] ={
+{-4.0148489755565831e-03f, -3.7953703573400032e-03f, -1.0134122497986136e-03f, -8.9163684379556891e-04f, -3.9989863224402442e-03f } 
+};
+float F25[1][1] ={
+{7.8102193328936781e-03f } 
+};
+
+float K26[1][N] ={
+{-4.0155423933246441e-03f, -3.7960404529269196e-03f, -1.0134827502787029e-03f, -8.9169882683914155e-04f, -3.9992637103931821e-03f } 
+};
+float F26[1][1] ={
+{7.8115828462475669e-03f } 
+};
+
+float K27[1][N] ={
+{-4.0162386248992783e-03f, -3.7967079546308868e-03f, -1.0135526949593403e-03f, -8.9176028396146915e-04f, -3.9995388946367852e-03f } 
+};
+float F27[1][1] ={
+{7.8129465795287421e-03f } 
+};
+
+float K28[1][N] ={
+{-4.2153689118714375e-03f, -3.9849547021167421e-03f, -1.0636932393272155e-03f, -9.3587562160734055e-04f, -4.1973955727306342e-03f } 
+};
+float F28[1][1] ={
+{8.2003236139848116e-03f } 
+};
+
+float K29[1][N] ={
+{-2.2717870668973470e-03f, -2.1730432578035033e-03f, -7.2373543743423129e-04f, -6.3688494149450508e-04f, -2.8570712403065304e-03f } 
+};
+float F29[1][1] ={
+{4.4448303246995124e-03f } 
+};
+
+if ( k == 0 ){multiply_matrix(1, N, N, 1, K1, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F1, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 1 ){multiply_matrix(1, N, N, 1, K2, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F2, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 2 ){multiply_matrix(1, N, N, 1, K3, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F3, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 3 ){multiply_matrix(1, N, N, 1, K4, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F4, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 4 ){multiply_matrix(1, N, N, 1, K5, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F5, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 5 ){multiply_matrix(1, N, N, 1, K6, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F6, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 6 ){multiply_matrix(1, N, N, 1, K7, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F7, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 7 ){multiply_matrix(1, N, N, 1, K8, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F8, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 8 ){multiply_matrix(1, N, N, 1, K9, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F9, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 9 ){multiply_matrix(1, N, N, 1, K10, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F10, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 10 ){multiply_matrix(1, N, N, 1, K11, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F11, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 11 ){multiply_matrix(1, N, N, 1, K12, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F12, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 12 ){multiply_matrix(1, N, N, 1, K13, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F13, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 13 ){multiply_matrix(1, N, N, 1, K14, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F14, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 14 ){multiply_matrix(1, N, N, 1, K15, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F15, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 15 ){multiply_matrix(1, N, N, 1, K16, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F16, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 16 ){multiply_matrix(1, N, N, 1, K17, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F17, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 17 ){multiply_matrix(1, N, N, 1, K18, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F18, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 18 ){multiply_matrix(1, N, N, 1, K19, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F19, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 19 ){multiply_matrix(1, N, N, 1, K20, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F20, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 20 ){multiply_matrix(1, N, N, 1, K21, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F21, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 21 ){multiply_matrix(1, N, N, 1, K22, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F22, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 22 ){multiply_matrix(1, N, N, 1, K23, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F23, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 23 ){multiply_matrix(1, N, N, 1, K24, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F24, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 24 ){multiply_matrix(1, N, N, 1, K25, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F25, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 25 ){multiply_matrix(1, N, N, 1, K26, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F26, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 26 ){multiply_matrix(1, N, N, 1, K27, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F27, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 27 ){multiply_matrix(1, N, N, 1, K28, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F28, r, new_control_inputB);H_PATTERN = H1;}
+if ( k == 28 ){multiply_matrix(1, N, N, 1, K29, augmented_state, new_control_inputA); multiply_matrix(1, 1, 1, 1, F29, r, new_control_inputB);H_PATTERN = H2;}
