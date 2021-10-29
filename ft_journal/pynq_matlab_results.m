@@ -8,12 +8,15 @@ load control_output_PF_0P1_MATLAB.mat;
 samples=1000;
 FLOAT_TO_INT = 100000;
 
-figure;
+
+% plot
+f = figure;
 
 subplot(2,2,1)
-plot(k.data(1:samples), r_out.data(1:samples), 'r',...
-     k.data(1:samples),  z.data(1:samples,1), 'b:.', ...
-     k.data(1:samples), pynqcontroloutput.s0(1:samples)/FLOAT_TO_INT, 'c:.')
+plot(k.data(1:samples), r_out.data(1:samples), 'r', 'linewidth', 0.5)
+hold on;
+plot(k.data(1:samples),  z.data(1:samples,1), 'b',  ...
+     k.data(1:samples), pynqcontroloutput.s0(1:samples)/FLOAT_TO_INT, 'c:.',  'LineWidth', 2)
 xlim([0 100]);
 xlabel('k [samples]');
 ylabel('\theta_1 [rad]');
@@ -21,21 +24,23 @@ legend('reference','MATLAB', 'CompSoC');
 title('P_s = 0.1')
 grid on;
 
+
 subplot(2,2,3)
-area(k.data(1:samples), m.data(1:samples))
+stairs(k.data(1:samples), m.data(1:samples),'LineWidth',2)
 xlim([0 100]);
 xlabel('k [samples]');
 ylabel('m');
-grid on;
+set(gca,'YTick',[0 1 2 3])
 
 
 pynqcontroloutput = readtable('../ft_journal_pynq/FT_app_workspace/FT_app_v4-paper-results/control_output_PF_0P5.txt');
 load control_output_PF_0P5_MATLAB.mat;
 
 subplot(2,2,2)
-plot(k.data(1:samples), r_out.data(1:samples), 'r',...
-     k.data(1:samples),  z.data(1:samples,1), 'b:.', ...
-     k.data(1:samples), pynqcontroloutput.s0(1:samples)/FLOAT_TO_INT, 'c:.')
+plot(k.data(1:samples), r_out.data(1:samples), 'r', 'Linewidth', 0.5);
+hold on;
+plot(k.data(1:samples),  z.data(1:samples,1), 'b', ...
+     k.data(1:samples), pynqcontroloutput.s0(1:samples)/FLOAT_TO_INT, 'c:.', 'LineWidth',2)
 xlim([600 900]);
 xlabel('k [samples]');
 ylabel('\theta_1 [rad]');
@@ -44,11 +49,16 @@ title('P_s = 0.5')
 grid on;
 
 subplot(2,2,4)
-area(k.data(1:samples), m.data(1:samples))
+stairs(k.data(1:samples), m.data(1:samples),'LineWidth',2)
 xlim([600 900]);
 xlabel('k [samples]');
 ylabel('m');
-grid on;
+set(gca,'YTick',[0 1 2 3])
+
+
+% Export plot
+exportgraphics(f,'myplot.pdf') 
+
 
 % % ploting pynqserver results with matlab
 % 

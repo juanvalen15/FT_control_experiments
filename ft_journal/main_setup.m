@@ -14,7 +14,7 @@ mode_switching_enable       = 1; % 1 -> vary modes according to the fault/error 
                                  % 0 -> do not vary modes
 
 % FOR BOTH SW AND FIXED SYS. ----------------------------------------------
-control_modes               = 2; % 3 modes C1-C2-C3
+control_modes               = 3; % 3 modes C1-C2-C3
 ref_enable                  = 1; % 1 -> enables variable reference 0 -> gives a fixed reference: BOTH SW AND FIXED SYS.
 controller_mode             = 1; % [1,2, or 3]: this is used for both SW and FIXED SYS. 
                                  % SW SYS.: when mode_switching_enable = 0 -> m = controller_mode
@@ -56,7 +56,7 @@ end
 
 % EVALUATING SEQUENCES AND PF
 if evaluate_pf == 0
-    pf                  = [.4 .4]; % fixed value when pf is not varied
+    pf                  = [.1 .1]; % fixed value when pf is not varied
     error_probability   = pf;
 end
 
