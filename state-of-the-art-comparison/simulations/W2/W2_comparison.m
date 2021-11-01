@@ -53,31 +53,35 @@ table(F', m.our', Y.our', Y.w2', C', T', D', U.our', U.w2', ...
 
 
   
-%% plots
-
-figure;
+%% comparison: faults vs. redundancy 
+f1 = figure;
 hold on;
-plot(F,Y.w2,'-mo','MarkerSize',8); 
-plot(F,Y.our,'-bo','MarkerSize',8);
+plot(F,Y.w2,'-mo','MarkerSize',8,'LineWidth',2); 
+plot(F,Y.our,'-bo','MarkerSize',8,'LineWidth',2);
 hold off;
 grid on;
 grid minor;
 xlabel('Faults');
 ylabel('Redundancy [executions]');
 legend('R - Zhou2016', 'R - Our Approach');
+set(gca,'FontSize',14)
+exportgraphics(f1,'compare_redundancy_w2.pdf')   
 
-figure;
+%% comparison: faults vs. resource utilisation
+f2 = figure;
 hold on;
-plot(F,U.w2,'-go','MarkerSize',8);
-plot(F,U.our,'-ro','MarkerSize',8);
+plot(F,U.w2,'-mo','MarkerSize',8,'LineWidth',2);
+plot(F,U.our,'-bo','MarkerSize',8,'LineWidth',2);
 hold off;
 grid on; 
 grid minor;
 xlabel('Faults');
 ylabel('Utilisation');
 legend('U - Zhour2016','U - Our Approach');
+set(gca,'FontSize',14)
+exportgraphics(f2,'compare_u_w2.pdf')   
 
-
+%% mean values
 [mean(U.our(3:end)) mean(U.w2(3:end)) mean(Y.our(1:end)) mean(Y.w2(1:end))]
 
 
