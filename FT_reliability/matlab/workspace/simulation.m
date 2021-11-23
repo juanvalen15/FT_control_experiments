@@ -19,8 +19,8 @@ for r_iter = 1:(length(ref)*(5/min(period_s))) %change every 5 seonds
 end
 
 for r_n = 1:(size(ref,2)-1)
-    refer=[refer(1:(5/min(period_s)*r_n)+r_n-1), ref(r_n), refer((5/min(period_s)*r_n)+r_n:end)];
-    time_r=[time_r(1:(5/min(period_s)*r_n)+r_n-1), time_r((5/min(period_s)*r_n)+r_n), time_r((5/min(period_s)*r_n)+r_n:end)];
+    refer=[refer(1:ceil(5/min(period_s)*r_n)+r_n-1), ref(r_n), refer(ceil(5/min(period_s)*r_n)+r_n:end)];
+    time_r=[time_r(1:ceil(5/min(period_s)*r_n)+r_n-1), time_r(ceil(5/min(period_s)*r_n)+r_n), time_r(ceil(5/min(period_s)*r_n)+r_n:end)];
 end
 %% y_L, input and psd plots
 clear x1 x2 x3 x4 input y_L time xkp1 x30 input0;
